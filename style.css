@@ -1,0 +1,267 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    width:100%
+  }
+  .tete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 150px;
+  }
+  .tete>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+  }
+  .corps1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+  }
+  .corps1>div:nth-child(1){
+    display: flex;
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    justify-content:center;
+    background-image: url('./images/left-banner-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 40px;
+  }
+  .corps1>div:nth-child(1)>span:nth-child(1){
+    font-size: 24px;
+    color: white;
+  }
+  .corps1>div:nth-child(1)>span:nth-child(2){
+    color: rgba(255,255,255,0.5);
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+  }
+  .corps1>div:nth-child(1)>button{
+    background-color: rgba(255,255,255,0.1);
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    width: 80px;
+    height: 20px;
+    font-size: 8px;
+  }
+  
+  .corps1>div:nth-child(2){
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+  .corps1>div:nth-child(2)>div:nth-child(1){
+    display: flex;
+    width: 100%;
+    height: 245px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image: url('./images/baner-right-image-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .corps1>div:nth-child(2)>div:nth-child(2){
+    display: flex;
+    width: 100%;
+    height: 245px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image: url('./images/baner-right-image-03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
+  .corps1>div:nth-child(3){
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+  .corps1>div:nth-child(3)>div:nth-child(1){
+    display: flex;
+    width: 100%;
+    height: 245px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image: url('./images/baner-right-image-02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .corps1>div:nth-child(3)>div:nth-child(2){
+    display: flex;
+    width: 100%;
+    height: 245px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image: url('./images/baner-right-image-04.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 10%;
+  }
+  .photo{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+  }
+  .starts{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .starts svg{
+    height: 10px;}
+  .flesh{
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  .flesh img:first-child{
+    left: 2%;
+    position: absolute;
+  }
+  .flesh img:last-child{
+    right: 2%;
+    position: absolute;
+  }
+  
+  .aa{
+    position: relative;
+    width: 32%;
+  }
+  .aa img{
+    width: 100%;
+  }
+  .bb{
+    position: relative;
+  }
+  .ecrit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+  }
+  .ecrit>div:nth-child(1){
+    display: flex;
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    justify-content:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 40px;
+  
+  }
+  .ecrit>div:nth-child(1)>p:nth-child(1){
+    font-size: 24px;
+    color: white;
+  }
+  .ecrit>div:nth-child(1)>p:nth-child(2){
+    color: rgba(255,255,255,0.5);
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+  }
+  .ecrit>div:nth-child(1)>button{
+    background-color: rgba(255,255,255,0.1);
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    width: 80px;
+    height: 20px;
+    font-size: 8px;
+  }
+  
+  .ecrit>div:nth-child(2){
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+  .ecrit>div:nth-child(2)>div:nth-child(1){
+    display: flex;
+    width: 100%;
+    height: 245px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .ecrit>div:nth-child(2)>div:nth-child(2){
+    display: flex;
+    width: 100%;
+    height: 245px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
+  .ecrit>div:nth-child(3){
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+  p .gui{
+    width: 40px;
+  }
+  .ecrit>div:nth-child(3)>div:nth-child(1){
+    display: flex;
+    width: 100%;
+    height: 245px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .ecrit>div:nth-child(3)>div:nth-child(2){
+    display: flex;
+    width: 100%;
+    height: 245px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
